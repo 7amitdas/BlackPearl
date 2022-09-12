@@ -1,10 +1,10 @@
-package algoexpert;
+package algoexpert.easy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class E_TournamentWinner {
+public class TournamentWinner2 {
 
 	public String tournamentWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
 		// Write your code here.
@@ -43,7 +43,7 @@ public class E_TournamentWinner {
 		results.add(0);
 		results.add(0);
 		results.add(1);
-		E_TournamentWinner t = new E_TournamentWinner();
+		TournamentWinner2 t = new TournamentWinner2();
 		System.out.println(t.tournamentWinner(competitions, results));
 	}
 }

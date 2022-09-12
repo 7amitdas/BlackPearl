@@ -1,9 +1,9 @@
-package algoexpert;
+package algoexpert.easy;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class E_ValidateSubsequence {
+public class ValidateSubsequence {
 
 	public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
 		// Write your code here.

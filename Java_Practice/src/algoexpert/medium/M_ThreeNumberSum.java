@@ -1,4 +1,4 @@
-package algoexpert;
+package algoexpert.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;

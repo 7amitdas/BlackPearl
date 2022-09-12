@@ -1,8 +1,8 @@
-package algoexpert;
+package algoexpert.easy;
 
 import java.util.Arrays;
 
-public class E_SortedSquaredArray {
+public class SortedSquaredArray {
 
 	public int[] sortedSquaredArray(int[] array) {
 		// Write your code here.
@@ -14,7 +14,7 @@ public class E_SortedSquaredArray {
 	}
 
 	public static void main(String[] args) {
-		E_SortedSquaredArray e = new E_SortedSquaredArray();
+		SortedSquaredArray e = new SortedSquaredArray();
 		int[] retArr = e.sortedSquaredArray(new int[] { -2, -1, 1, 2, 3, 5, 8 });
 		for (int i = 0; i < retArr.length; i++) {
 			System.out.println(retArr[i]);
