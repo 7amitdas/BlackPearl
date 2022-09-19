@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class M_ThreeNumberSum {
+public class ThreeNumberSum {
 
 	public static List<Integer[]> threeNumberSum(int[] array, int targetSum) {
 		// Write your code here.

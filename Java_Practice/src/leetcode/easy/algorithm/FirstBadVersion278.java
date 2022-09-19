@@ -1,4 +1,4 @@
-package leetcode.algorithmI;
+package leetcode.easy.algorithm;
 
 public class FirstBadVersion278 {
 
