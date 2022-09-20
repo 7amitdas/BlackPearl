@@ -6,7 +6,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * One week preparation kit
+ * Interview Preparation Kits
+ * One Week Preparation Kit
+ * Day 1
+ * Plus Minus
  * {@link} https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one
  */
 
