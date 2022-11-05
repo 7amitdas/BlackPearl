@@ -2,6 +2,12 @@ package algoexpert.easy;
 
 import java.util.Arrays;
 
+/**
+ * Coding Interview Questions
+ * Sorted Squared Array
+ * {@link} https://www.algoexpert.io/questions/sorted-squared-array
+ */
+
 public class SortedSquaredArray {
 
 	public int[] sortedSquaredArray(int[] array) {

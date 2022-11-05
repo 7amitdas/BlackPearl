@@ -3,6 +3,12 @@ package algoexpert.easy;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Coding Interview Questions
+ * Validate Subsequence
+ * {@link} https://www.algoexpert.io/questions/validate-subsequence
+ */
+
 public class ValidateSubsequence {
 
 	public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {

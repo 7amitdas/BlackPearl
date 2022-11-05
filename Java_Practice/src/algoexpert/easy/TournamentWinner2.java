@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Coding Interview Questions
+ * Tournament Winner  Solution 2
+ * {@link} https://www.algoexpert.io/questions/tournament-winner
+ */
+
 public class TournamentWinner2 {
 
 	public String tournamentWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
