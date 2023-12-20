@@ -1,10 +1,10 @@
 package hackerrank.easy;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 /**
  * Hacker Rank Java > Data Structures
@@ -40,9 +40,7 @@ public class JavaSort {
 				}
 			}
 		};
-		studentList = studentList.stream()
-				.sorted(studentComp.thenComparing(Student::getFname).thenComparing(Student::getId))
-				.collect(Collectors.toList());
+		Collections.sort(studentList, studentComp.thenComparing(Student::getFname).thenComparing(Student::getId));
 		for (Student st : studentList) {
 			System.out.println(st.getFname());
 		}
