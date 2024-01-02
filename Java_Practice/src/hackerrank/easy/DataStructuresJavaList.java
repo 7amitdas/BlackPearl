@@ -16,7 +16,8 @@ public class DataStructuresJavaList {
 	public static void main(String[] args) {
 		int sizeOfList = 0;
 		int noOfQuery = 0;
-		int listIndexInsDel = 0;
+		int listIndexIns = 0;
+		int listIndexDel = 0;
 		int numberToInsert = 0;
 		List<Integer> numberList = new LinkedList<>();
 		try (Scanner sc = new Scanner(System.in)) {
@@ -26,22 +27,23 @@ public class DataStructuresJavaList {
 				numberList.add(sc.nextInt());
 				i++;
 			}
-			i = 0;
+			int j = 0;
 			noOfQuery = sc.nextInt();
-			while (sc.hasNext() && i < noOfQuery) {
-				if ("Insert".equalsIgnoreCase(sc.next())) {
-					listIndexInsDel = sc.nextInt();
+			while (sc.hasNext() && j < noOfQuery) {
+				String operationName = sc.next();
+				if ("Insert".equalsIgnoreCase(operationName)) {
+					listIndexIns = sc.nextInt();
 					numberToInsert = sc.nextInt();
-					numberList.add(listIndexInsDel, numberToInsert);
-				} else if ("Delete".equalsIgnoreCase(sc.next())) {
-					listIndexInsDel = sc.nextInt();
-					numberList.remove(listIndexInsDel);
+					numberList.add(listIndexIns, numberToInsert);
+				} else if ("Delete".equalsIgnoreCase(operationName)) {
+					listIndexDel = sc.nextInt();
+					numberList.remove(listIndexDel);
 				}
-				i++;
+				j++;
 			}
 		} catch (NumberFormatException e) {
 			e.printStackTrace();
 		}
-		System.out.println(numberList);
+		numberList.stream().distinct().forEach(n -> System.out.print(n + " "));
 	}
 }
