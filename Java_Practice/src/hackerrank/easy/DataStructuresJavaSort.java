@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 
  * Java Sort {@link} https://www.hackerrank.com/challenges/java-sort
  */
-public class JavaSort {
+public class DataStructuresJavaSort {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
