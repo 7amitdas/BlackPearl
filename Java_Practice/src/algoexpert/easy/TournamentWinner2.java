@@ -8,6 +8,8 @@ import java.util.Map;
  * Coding Interview Questions
  * Tournament Winner  Solution 2
  * {@link} https://www.algoexpert.io/questions/tournament-winner
+ * 
+ * @author Amit Das
  */
 
 public class TournamentWinner2 {

@@ -6,6 +6,8 @@ import java.util.Arrays;
  * Interview Coding Test Example
  * Problem Details: Find the closest Temperature to zero from a list of temperatures.
  * If the difference is same for both positive and negative temperature return the positive temperature.
+ * 
+ * @author Amit Das
  */
 
 public class ComputeTempClosestToZero {

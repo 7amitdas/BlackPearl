@@ -5,6 +5,8 @@ package hackerrank.easy;
  * 
  * Java String Tokens
  * {@link} https://www.hackerrank.com/challenges/java-string-tokens
+ * 
+ * @author Amit Das
  */
 public class JavaStringTokens {
 

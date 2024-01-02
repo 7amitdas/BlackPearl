@@ -9,6 +9,8 @@ import java.util.List;
  * Three Number Sum
  * Solution 1
  * {@link} https://www.algoexpert.io/questions/three-number-sum
+ * 
+ * @author Amit Das
  */
 
 public class ThreeNumberSum1 {

@@ -8,6 +8,8 @@ import java.util.regex.PatternSyntaxException;
  * 
  * Pattern Syntax Checker
  * {@link} https://www.hackerrank.com/challenges/pattern-syntax-checker
+ * 
+ * @author Amit Das
  */
 public class PatternSyntaxChecker {
 

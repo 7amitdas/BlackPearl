@@ -6,6 +6,8 @@ import java.util.Arrays;
  * Coding Interview Questions
  * Two Number Sum Solution 1
  * {@link} https://www.algoexpert.io/questions/two-number-sum
+ * 
+ * @author Amit Das
  */
 
 public class TwoNumberSum1 {

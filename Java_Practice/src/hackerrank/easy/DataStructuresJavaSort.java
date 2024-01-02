@@ -10,6 +10,8 @@ import java.util.Scanner;
  * Hacker Rank Java > Data Structures
  * 
  * Java Sort {@link} https://www.hackerrank.com/challenges/java-sort
+ * 
+ * @author Amit Das
  */
 public class DataStructuresJavaSort {
 

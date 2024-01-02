@@ -6,6 +6,8 @@ import java.util.Arrays;
  * Coding Interview Questions
  * Sorted Squared Array
  * {@link} https://www.algoexpert.io/questions/sorted-squared-array
+ * 
+ * @author Amit Das
  */
 
 public class SortedSquaredArray {

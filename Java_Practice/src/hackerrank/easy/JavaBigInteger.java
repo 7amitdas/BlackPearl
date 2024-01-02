@@ -8,6 +8,8 @@ import java.util.Scanner;
  * 
  * Java BigInteger
  * {@link} https://www.hackerrank.com/challenges/java-biginteger
+ * 
+ * @author Amit Das
  */
 public class JavaBigInteger {
 

@@ -1,5 +1,12 @@
 package leetcode.easy.algorithm;
 
+/**
+ * LeetCode Problems Algorithms
+ * 
+ * Search Insert Position {@link} https://leetcode.com/problems/search-insert-position/
+ * 
+ * @author Amit Das
+ */
 public class SearchInsertPosition35 {
 
 	public int searchInsert(int[] nums, int target) {

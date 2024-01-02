@@ -7,6 +7,8 @@ import java.util.List;
  * Coding Interview Questions
  * Validate Subsequence
  * {@link} https://www.algoexpert.io/questions/validate-subsequence
+ * 
+ * @author Amit Das
  */
 
 public class ValidateSubsequence {

@@ -8,6 +8,8 @@ import java.util.Scanner;
  * Hacker Rank Java > Data Structures
  * 
  * Java List {@link} https://www.hackerrank.com/challenges/java-list
+ * 
+ * @author Amit Das
  */
 public class DataStructuresJavaList {
 

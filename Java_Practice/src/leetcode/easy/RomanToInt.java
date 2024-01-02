@@ -3,6 +3,13 @@ package leetcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * LeetCode Problems
+ * 
+ * Roman To Integer {@link} https://leetcode.com/problems/roman-to-integer/
+ * 
+ * @author Amit Das
+ */
 public class RomanToInt {
 
 	public int romanToInt(String s) {

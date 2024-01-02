@@ -3,15 +3,14 @@ package hackerrank.interviewproblems;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Amazon : Software Development Engineer
+ * Problem Summary : Count the minimum moves required to move the low weighted plate at the top 
+	and high weighted plate at the bottom of a stack only. All other plates might be unsorted. All the plates has distinct weight.
+ * 
+ * @author Amit Das
+*/
 public class GetMinMoves {
-
-	/*
-	Amazon : Software Development Engineer
-	Problem Summary : Count the minimum moves required to move the low weighted plate at the top 
-	and high weighted plate at the bottom of a stack only. All other plates might be unsorted.
-	
-	All the plates has distinct weight.
-	*/
 
 	public static int getMinMoves(List<Integer> plates) {
 		// Write your code here

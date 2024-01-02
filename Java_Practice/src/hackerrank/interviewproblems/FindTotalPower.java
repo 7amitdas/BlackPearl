@@ -5,13 +5,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FindTotalPower {
-
-	/*
-	Amazon : Software Development Engineer
-	Problem Summary : Find the total power.
+/**
+ * Amazon : Software Development Engineer
+ * Problem Summary : Find the total power.
 	Example: [2,3,2,1]
-	
+
 	Matrix[0, 0] : MIN[2] * SUM[2] = 2 * 2 = 4
 	Matrix[0, 1] : MIN[2, 3] * SUM[2, 3] = 2 * 5 = 10
 	Matrix[0, 2] : MIN[2, 3, 2] * SUM[2, 3, 2] = 2 * 7 = 14
@@ -23,7 +21,10 @@ public class FindTotalPower {
 	Matrix[2, 3] : MIN[2, 1] * SUM[2, 1] = 1 * 3 = 3
 	Matrix[3, 3] : MIN[1] * SUM[1] = 1 * 1 = 1
 	Total : 69
-	*/
+
+ * @author Amit Das
+*/
+public class FindTotalPower {
 
 	public static int findTotalPower(List<Integer> power) {
 		// Write your code here

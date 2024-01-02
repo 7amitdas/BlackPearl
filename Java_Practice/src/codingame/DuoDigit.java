@@ -6,6 +6,8 @@ import java.util.Set;
 /**
  * Interview Coding Test 1
  * Problem Details: Find if a Number made of maximum of two number digits. If yes, return "y",  otherwise "n".
+ * 
+ * @author Amit Das
  */
 
 public class DuoDigit {

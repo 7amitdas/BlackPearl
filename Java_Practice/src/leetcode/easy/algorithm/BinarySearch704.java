@@ -1,5 +1,12 @@
 package leetcode.easy.algorithm;
 
+/**
+ * LeetCode Problems Algorithms
+ * 
+ * Binary Search {@link} https://leetcode.com/problems/binary-search/
+ * 
+ * @author Amit Das
+ */
 public class BinarySearch704 {
 
 	public int search(int[] nums, int target) {

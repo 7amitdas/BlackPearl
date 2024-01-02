@@ -8,6 +8,8 @@ package codingame;
  * 3. A giftee can not have 0 or 4 as gift
  * 4. 
  * Find the Minimum distribution count among all the giftees
+ * 
+ * @author Amit Das
  */
 
 public class LuckyMoney {

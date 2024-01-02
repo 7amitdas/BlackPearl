@@ -14,6 +14,8 @@ import java.util.Set;
  * for that customer, if that index found again that means that will be an exit for that customer likewise it can multiple
  * for a day. If No seats are available then Customers have to wait until the seats are available.
  * So, Find the total Income for the Customers who visited the restaurant and had food.
+ * 
+ * @author Amit Das
  */
 
 public class GuestAllowed {

@@ -10,6 +10,8 @@ import java.util.Scanner;
  * Hacker Rank Java > BigNumber
  * 
  * Java BigDecimal {@link} https://www.hackerrank.com/challenges/java-bigdecimal
+ * 
+ * @author Amit Das
  */
 public class JavaBigDecimal {
 

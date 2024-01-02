@@ -11,6 +11,8 @@ import java.util.List;
  * Day 1
  * Plus Minus
  * {@link} https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one
+ * 
+ * @author Amit Das
  */
 
 public class PlusMinus {

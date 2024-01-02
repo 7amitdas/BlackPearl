@@ -1,5 +1,12 @@
 package leetcode.easy.algorithm;
 
+/**
+ * LeetCode Problems Algorithms
+ * 
+ * First Bad Version {@link} https://leetcode.com/problems/first-bad-version/
+ * 
+ * @author Amit Das
+ */
 public class FirstBadVersion278 {
 
 	boolean isBadVersion(int version) {

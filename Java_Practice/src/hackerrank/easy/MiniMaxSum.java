@@ -10,6 +10,8 @@ import java.util.List;
  * Day 1
  * Mini Max Sum
  * {@link} https://www.hackerrank.com/challenges/one-week-preparation-kit-mini-max-sum/problem?h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=true&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one
+ * 
+ * @author Amit Das
  */
 
 public class MiniMaxSum {
