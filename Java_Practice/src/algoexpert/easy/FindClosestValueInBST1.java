@@ -6,7 +6,7 @@ package algoexpert.easy;
  * 
  * @author Amit Das
  */
-public class FindClosestValueInBST {
+public class FindClosestValueInBST1 {
 
 	static class BST {
 		public int value;
