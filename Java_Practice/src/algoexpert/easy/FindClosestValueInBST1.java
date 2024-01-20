@@ -1,7 +1,8 @@
 package algoexpert.easy;
 
 /**
- * Coding Interview Questions Find Closest Value in BST
+ * Coding Interview Questions 
+ * Find Closest Value in BST Solution 1
  * {@link} https://www.algoexpert.io/questions/find-closest-value-in-bst
  * 
  * @author Amit Das
