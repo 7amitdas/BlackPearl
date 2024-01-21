@@ -29,9 +29,10 @@ public class BranchSum {
 			int newSum = sum + subTree.value;
 			if (subTree.left == null && subTree.right == null) {
 				sumsList.add(newSum);
+			} else {
+				calculateBranchSum(subTree.left, newSum, sumsList);
+				calculateBranchSum(subTree.right, newSum, sumsList);
 			}
-			calculateBranchSum(subTree.left, newSum, sumsList);
-			calculateBranchSum(subTree.right, newSum, sumsList);
 		}
 	}
 
