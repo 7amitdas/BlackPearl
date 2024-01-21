@@ -25,9 +25,7 @@ public class BranchSum {
 	}
 
 	public static void calculateBranchSum(BinaryTree subTree, int sum, List<Integer> sumsList) {
-		if (subTree == null) {
-			return;
-		} else {
+		if (subTree != null) {
 			int newSum = sum + subTree.value;
 			if (subTree.left == null && subTree.right == null) {
 				sumsList.add(newSum);
@@ -40,8 +38,7 @@ public class BranchSum {
 	public static List<Integer> branchSums(BinaryTree root) {
 		// Write your code here.
 		List<Integer> sumsList = new ArrayList<>();
-		int sum = 0;
-		calculateBranchSum(root, sum, sumsList);
+		calculateBranchSum(root, 0, sumsList);
 		return sumsList;
 	}
 
