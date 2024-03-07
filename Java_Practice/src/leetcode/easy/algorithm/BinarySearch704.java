@@ -10,12 +10,21 @@ package leetcode.easy.algorithm;
 public class BinarySearch704 {
 
 	public int search(int[] nums, int target) {
-		for ( int i = 0; i < nums.length; i++ ) {
-			if (nums[i] == target) {
-				return i;
-			}
-		}
-		return -1;
+		int low = 0;
+        int high = nums.length - 1;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            int midVal = nums[mid];
+
+            if (midVal < target)
+                low = mid + 1;
+            else if (midVal > target)
+                high = mid - 1;
+            else
+                return mid;
+        }
+        return -1;
 	}
 
 	public static void main(String[] args) {
