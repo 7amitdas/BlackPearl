@@ -3,7 +3,7 @@ package leetcode.easy;
 /**
  * LeetCode Problems
  * 
- * Merge Strings Alternately
+ * 1768. Merge Strings Alternately Solution 1 </br>
  * {@link} https://leetcode.com/problems/merge-strings-alternately
  * 
  * @author Amit Das
