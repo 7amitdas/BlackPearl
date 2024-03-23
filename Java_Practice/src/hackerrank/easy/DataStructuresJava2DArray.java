@@ -45,8 +45,8 @@ public class DataStructuresJava2DArray {
 			Integer prevLineSum = prevLine.get(itemNo - 1) + prevLine.get(itemNo) + prevLine.get(itemNo + 1);
 			Integer nextLineSum = nextLine.get(itemNo - 1) + nextLine.get(itemNo) + nextLine.get(itemNo + 1);
 			hourglassSum = prevLineSum + item + nextLineSum;
-			printHourGlass(prevLine.get(itemNo - 1), prevLine.get(itemNo), prevLine.get(itemNo + 1), item,
-					nextLine.get(itemNo - 1), nextLine.get(itemNo), nextLine.get(itemNo + 1), hourglassSum);
+//			printHourGlass(prevLine.get(itemNo - 1), prevLine.get(itemNo), prevLine.get(itemNo + 1), item,
+//					nextLine.get(itemNo - 1), nextLine.get(itemNo), nextLine.get(itemNo + 1), hourglassSum);
 			if (hourglassSum > maxSumForLine) {
 				maxSumForLine = hourglassSum;
 			}
@@ -56,11 +56,12 @@ public class DataStructuresJava2DArray {
 	}
 
 	public static void main(String[] args) throws IOException {
+		Integer lengthOfArrayX = 6;
+		Integer lengthOfArrayY = 6;
+		
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
 		List<List<Integer>> arr = new ArrayList<>();
-
-		IntStream.range(0, 6).forEach(i -> {
+		IntStream.range(0, lengthOfArrayY).forEach(i -> {
 			try {
 				arr.add(Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" ")).map(Integer::parseInt)
 						.collect(toList()));
@@ -72,8 +73,6 @@ public class DataStructuresJava2DArray {
 
 		Integer maxSum = Integer.MIN_VALUE;
 		Integer hourglassSum = Integer.MIN_VALUE;
-		Integer lengthOfArrayX = 6;
-		Integer lengthOfArrayY = 6;
 		Integer lineNo = 0;
 		for (List<Integer> currElement : arr) {
 			if (lineNo == 0) {
