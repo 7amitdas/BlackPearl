@@ -29,7 +29,6 @@ public class BinarySearch {
 	}
 
 	public static void main(String[] args) {
-		BinarySearch b = new BinarySearch();
-		System.out.println(b.binarySearch(new int[] { 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 }, 33));
+		System.out.println(BinarySearch.binarySearch(new int[] { 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 }, 33));
 	}
 }
