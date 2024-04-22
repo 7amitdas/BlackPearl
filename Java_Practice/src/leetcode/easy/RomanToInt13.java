@@ -6,11 +6,12 @@ import java.util.Map;
 /**
  * LeetCode Problems
  * 
- * Roman To Integer {@link} https://leetcode.com/problems/roman-to-integer/
+ * 13. Roman To Integer Solution 1 <br>
+ * {@link} https://leetcode.com/problems/roman-to-integer/
  * 
  * @author Amit Das
  */
-public class RomanToInt {
+public class RomanToInt13 {
 
 	public int romanToInt(String s) {
 		int result = 0;
@@ -44,7 +45,7 @@ public class RomanToInt {
 	}
 
 	public static void main(String[] args) {
-		RomanToInt t = new RomanToInt();
+		RomanToInt13 t = new RomanToInt13();
 		System.out.println(t.romanToInt("MCMXCIVIIIIVVIV"));
 	}
 }

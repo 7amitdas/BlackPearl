@@ -2,12 +2,12 @@ package leetcode.easy;
 
 /**
  * Coding Interview Questions </br>
- * Reverse Vowels Of A String Solution 1 </br>
+ * 345. Reverse Vowels Of A String Solution 1 </br>
  * {@link} https://leetcode.com/problems/reverse-vowels-of-a-string
  * 
  * @author Amit Das
  */
-public class ReverseVowelsOfAString {
+public class ReverseVowelsOfAString345 {
 
 	public String reverseVowels(String s) {
 		char[] str = s.toCharArray();
@@ -48,7 +48,7 @@ public class ReverseVowelsOfAString {
 	}
 
 	public static void main(String[] args) {
-		ReverseVowelsOfAString p = new ReverseVowelsOfAString();
+		ReverseVowelsOfAString345 p = new ReverseVowelsOfAString345();
 		System.out.println(p.reverseVowels("hello"));
 		System.out.println(p.reverseVowels("leetcode"));
 	}

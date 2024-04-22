@@ -1,13 +1,13 @@
-package leetcode.easy;
+package leetcode.medium;
 
 /**
  * Coding Interview Questions </br>
- * Reverse Words In A String Solution 1 </br>
+ * 151. Reverse Words In A String Solution 1 </br>
  * {@link} https://leetcode.com/problems/reverse-words-in-a-string
  * 
  * @author Amit Das
  */
-public class ReverseWordsInAString {
+public class ReverseWordsInAString151 {
 
 	public String reverseWords(String s) {
 		StringBuilder sb = new StringBuilder();
@@ -24,7 +24,7 @@ public class ReverseWordsInAString {
 	}
 
 	public static void main(String[] args) {
-		ReverseWordsInAString p = new ReverseWordsInAString();
+		ReverseWordsInAString151 p = new ReverseWordsInAString151();
 		System.out.println(p.reverseWords("the sky is blue"));
 		System.out.println(p.reverseWords("  hello world  "));
 		System.out.println(p.reverseWords("a good   example"));

@@ -2,12 +2,12 @@ package leetcode.easy;
 
 /**
  * Coding Interview Questions </br>
- * Can Place Flowers Solution 1 </br>
+ * 605. Can Place Flowers Solution 1 </br>
  * {@link} https://leetcode.com/problems/can-place-flowers
  * 
  * @author Amit Das
  */
-public class CanPlaceFlowers {
+public class CanPlaceFlowers605 {
 
 	public boolean canPlaceFlowers(int[] flowerbed, int n) {
 		for (int idx = 0; idx < flowerbed.length; idx++) {
@@ -26,7 +26,7 @@ public class CanPlaceFlowers {
 	}
 
 	public static void main(String[] args) {
-		CanPlaceFlowers p = new CanPlaceFlowers();
+		CanPlaceFlowers605 p = new CanPlaceFlowers605();
 		System.out.println(p.canPlaceFlowers(new int[] { 1, 0, 0, 0, 1 }, 1)); // True
 		System.out.println(p.canPlaceFlowers(new int[] { 1, 0, 0, 0, 1 }, 2)); // False
 		System.out.println(p.canPlaceFlowers(new int[] { 1, 0, 0, 0, 0, 1 }, 2)); // False
