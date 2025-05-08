@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * Prepare -> Algorithms Implementation Apple and Orange
+ * Prepare -> Algorithms -> Implementation
+ * Apple and Orange
  * {@link} https://www.hackerrank.com/challenges/apple-and-orange
  * 
  * @author Amit Das
  */
-
 public class AppleAndOrange {
 	/**
 	 * The first line contains two space-separated integers denoting the respective
