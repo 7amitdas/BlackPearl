@@ -1,7 +1,5 @@
 package leetcode.medium;
 
-import java.util.stream.IntStream;
-
 /**
  * LeetCode Problems
  * 
@@ -19,22 +17,19 @@ public class MaximumSubarray53V2 {
 			if (arrayLen == 1) {
 				return nums[0];
 			} else {
-				int currIndex = 0;
-				int subArrLen = 1;
-				int currSum = 0;
-				while (currIndex < arrayLen) {
-					if ((currIndex + subArrLen) <= arrayLen) {
-						currSum = IntStream.range(currIndex, currIndex + subArrLen).map(num -> nums[num]).sum();
+				for (int i = 0; i < arrayLen; i++) {
+					int j = i + 1;
+					int currSum = nums[i];
+					if (currSum > maxSum) {
+						maxSum = currSum;
+					}
+					while (j < arrayLen) {
+						currSum = currSum + nums[j];
 						if (currSum > maxSum) {
 							maxSum = currSum;
 						}
+						j++;
 					}
-					if (subArrLen == arrayLen) {
-						currIndex++;
-						subArrLen = 1;
-						continue;
-					}
-					subArrLen++;
 				}
 			}
 		}
@@ -42,6 +37,7 @@ public class MaximumSubarray53V2 {
 	}
 
 	public static void main(String[] args) {
+		// Brute-force approach -> Time Complexity O(N^2)
 		// Might not work for Big Input
 		MaximumSubarray53V2 t = new MaximumSubarray53V2();
 		System.out.println(t.maxSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 })); // 6

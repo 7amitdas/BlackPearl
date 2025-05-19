@@ -12,32 +12,22 @@ public class MaximumSubarray53 {
 
 	public int maxSubArray(int[] nums) {
 		int maxSum = Integer.MIN_VALUE;
-		int arrayLen = nums.length;
-		if (arrayLen > 0) {
-			if (arrayLen == 1) {
-				return nums[0];
-			} else {
-				for (int i = 0; i < arrayLen; i++) {
-					int j = i + 1;
-					int currSum = nums[i];
-					if (currSum > maxSum) {
-						maxSum = currSum;
-					}
-					while (j < arrayLen) {
-						currSum = currSum + nums[j];
-						if (currSum > maxSum) {
-							maxSum = currSum;
-						}
-						j++;
-					}
-				}
-			}
-		}
-		return maxSum;
+        int currentSum = 0;
+        
+        for (int i = 0; i < nums.length; i++) {
+            currentSum += nums[i];
+            if (currentSum > maxSum) {
+                maxSum = currentSum;
+            }
+            if (currentSum < 0) {
+                currentSum = 0;
+            }
+        }
+        return maxSum;
 	}
 
 	public static void main(String[] args) {
-		// Might not work for Big Input
+		// Kadane’s Algorithm -> Time Complexity O(N)
 		MaximumSubarray53 t = new MaximumSubarray53();
 		System.out.println(t.maxSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 })); // 6
 		System.out.println(t.maxSubArray(new int[] { 1 })); // 1
